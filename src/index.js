@@ -25,3 +25,13 @@ console.log("Version1");
 // git add
 // then git commit -m "Version 1" --amend
 // So what --amend means is that isstead of creating a new commit, this changes are just gonna go in the previouse commit
+
+// Creating git shortcuts:
+// Here we want the command to know that s stands for status, so that we do  not have to type "status" in full but just "s" to save time
+// git confg --global alias.s "status"
+// git config --global alias.cm "commit -m"
+// git config --global alias.co "checkout"
+
+// How to ignore certain files from being added to the version history??
+
+// You do that by creating an gitignore file (.gitignore) into which the files to be ignored can be types, so that they are not added in version history
