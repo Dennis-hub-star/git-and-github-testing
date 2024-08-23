@@ -1,5 +1,5 @@
 console.log("index.js");
-console.log("Version1");
+console.log("Version12");
 
 // When you first open the command line or powershel, the commands are running in side the home folder
 // So we have to make sure that the commands are running in the folder that contains our code  using "cd" and the folder name like Gid=t and GitHub Testing
@@ -35,3 +35,14 @@ console.log("Version1");
 // How to ignore certain files from being added to the version history??
 
 // You do that by creating an gitignore file (.gitignore) into which the files to be ignored can be types, so that they are not added in version history
+
+// HOW TO REMOVE git COMPLETELY FROM YOUR PROJECT??
+
+/////////////       GITHUB TUTORIAL      ////////////////
+
+// Repository is the storage/folder in which the code is stored
+// Online repository like github, is a remote repository
+// Folder in our computer in which the code is saved, is called local repository
+
+// TO CREATE A SHORT CUT FOR THIS "git push origion master" You should do this: "git push origion master --set-up stream"
+// After that when you run "git push" it would be the same as running git push origion master
